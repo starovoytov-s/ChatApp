@@ -6,6 +6,8 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleDisplayName</key>
+	<string>App Category</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -58,5 +60,9 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please allow access to select photo</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Please allow access to take a profile picture</string>
 </dict>
 </plist>
