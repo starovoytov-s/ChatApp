@@ -24,6 +24,7 @@
 		7B8EF1EE251F90540017C924 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EF1ED251F90540017C924 /* VideoPlayerViewController.swift */; };
 		7B8EF1F1251F90900017C924 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EF1F0251F90900017C924 /* NewConversationViewController.swift */; };
 		7B8EF1F4251F90A40017C924 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EF1F3251F90A40017C924 /* ProfileViewController.swift */; };
+		7BA905EA25260F370051FAD9 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA905E925260F370051FAD9 /* ConversationTableViewCell.swift */; };
 		7BD34BE425209DE000EE7E44 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD34BE325209DE000EE7E44 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		7B8EF1ED251F90540017C924 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		7B8EF1F0251F90900017C924 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		7B8EF1F3251F90A40017C924 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7BA905E925260F370051FAD9 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
 		7BD34BE325209DE000EE7E44 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BB341168EA3831585C70C6AC /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 			children = (
 				7B8EF1E1251F8EC80017C924 /* Storyboards */,
 				7B8EF1D0251F8D6C0017C924 /* Assets.xcassets */,
+				7BA905E925260F370051FAD9 /* ConversationTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				7B8EF1C8251F8D6B0017C924 /* AppDelegate.swift in Sources */,
 				7B8EF1F4251F90A40017C924 /* ProfileViewController.swift in Sources */,
 				7B8EF1CA251F8D6B0017C924 /* SceneDelegate.swift in Sources */,
+				7BA905EA25260F370051FAD9 /* ConversationTableViewCell.swift in Sources */,
 				7B84080825238E1700F667C1 /* ChatViewController.swift in Sources */,
 				7B8EF1EB251F903E0017C924 /* PhotoViewerViewController.swift in Sources */,
 				7B8408272523BE6800F667C1 /* StorageManager.swift in Sources */,
