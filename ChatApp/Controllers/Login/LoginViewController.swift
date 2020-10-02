@@ -92,7 +92,6 @@ class LoginViewController: UIViewController {
             }
             
             strongSelf.navigationController?.dismiss(animated: true, completion: nil)
-            
         }
         
         GIDSignIn.sharedInstance()?.presentingViewController = self
