@@ -1,41 +1,55 @@
 {
   "images" : [
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-20@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-20@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-29.png",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-29@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-40@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-60@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-60@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -87,6 +101,41 @@
     },
     {
       "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-83.5@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-20.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-40.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-76.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-76@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "png-transparent-computer-icons-imessage-online-chat-ios-7-coin-miscellaneous-blue-marine-mammal-1024.png",
+      "idiom" : "universal",
       "scale" : "1x",
       "size" : "1024x1024"
     }

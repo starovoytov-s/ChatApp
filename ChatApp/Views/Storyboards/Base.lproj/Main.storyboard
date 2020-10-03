@@ -27,7 +27,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="ms1-ue-HHY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rgf-f9-XMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="PuS-09-uks" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iLo-cn-hdf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -39,6 +38,7 @@
                         <segue destination="nBH-20-Qbz" kind="relationship" relationship="viewControllers" id="4XG-PC-iVt"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rgf-f9-XMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="22" y="98"/>
         </scene>
@@ -46,7 +46,7 @@
         <scene sceneID="nwO-vz-WpN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uY8-b2-71Y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chats" id="ram-t3-85O"/>
+                    <tabBarItem key="tabBarItem" title="Chats" image="message" catalog="system" id="ram-t3-85O"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="eDI-Rf-Kem">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -65,7 +65,7 @@
         <scene sceneID="eGb-Eg-jcS">
             <objects>
                 <navigationController id="nBH-20-Qbz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="AVh-pM-Zel"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="AVh-pM-Zel"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="fRv-NL-zuk">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -111,6 +111,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
