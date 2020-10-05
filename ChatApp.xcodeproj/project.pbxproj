@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1BEB50183476FD150D0EDDB1 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394F6327CE1F806870AC0AF6 /* Pods_ChatApp.framework */; };
+		7B4CFA89252B81DD003B1668 /* crash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4CFA88252B81DD003B1668 /* crash.swift */; };
 		7B73140125221468004DF564 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73140025221468004DF564 /* DatabaseManager.swift */; };
 		7B7DDA262521FC0700601143 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DDA252521FC0700601143 /* GoogleService-Info.plist */; };
 		7B84080825238E1700F667C1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84080725238E1700F667C1 /* ChatViewController.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		394F6327CE1F806870AC0AF6 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D882EDAD0EF48C103234654 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		7B4CFA88252B81DD003B1668 /* crash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crash.swift; sourceTree = "<group>"; };
 		7B73140025221468004DF564 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		7B7DDA252521FC0700601143 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7B84080725238E1700F667C1 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				7B84080725238E1700F667C1 /* ChatViewController.swift */,
 				7B8EF1CB251F8D6B0017C924 /* ConversationsViewController.swift */,
 				7BC737DC252A120700CBEE2B /* LocationPickerViewController.swift */,
+				7B4CFA88252B81DD003B1668 /* crash.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				7B8EF1C2251F8D6B0017C924 /* Resources */,
 				A83CC8C0848D4B94E4D7EB0B /* [CP] Embed Pods Frameworks */,
 				8DF638FC643488A8DF198C8F /* [CP] Copy Pods Resources */,
+				7B5D326F252B78BB001AA405 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -281,6 +285,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7B5D326F252B78BB001AA405 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\n";
+		};
 		8DF638FC643488A8DF198C8F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +348,7 @@
 				7B73140125221468004DF564 /* DatabaseManager.swift in Sources */,
 				7B8EF1E8251F900D0017C924 /* RegisterViewController.swift in Sources */,
 				7B8EF1F1251F90900017C924 /* NewConversationViewController.swift in Sources */,
+				7B4CFA89252B81DD003B1668 /* crash.swift in Sources */,
 				7B8EF1CC251F8D6B0017C924 /* ConversationsViewController.swift in Sources */,
 				7B8EF1EE251F90540017C924 /* VideoPlayerViewController.swift in Sources */,
 				7BD34BE425209DE000EE7E44 /* Extensions.swift in Sources */,
@@ -486,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = H6A2F4D638;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = H6A2F4D638;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

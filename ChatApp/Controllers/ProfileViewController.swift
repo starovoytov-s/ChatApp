@@ -51,6 +51,9 @@ class ProfileViewController: UIViewController {
                     return
                 }
                 
+                UserDefaults.standard.setValue(nil, forKey: "emai")
+                UserDefaults.standard.setValue(nil, forKey: "name")
+                
                 // log out facebook
                 FBSDKLoginKit.LoginManager().logOut()
                 
@@ -168,3 +171,5 @@ class ProfileTableViewCell: UITableViewCell {
         }
     }
 }
+
+
