@@ -1,4 +1,4 @@
 # ChatApp
 
 Study Project: Chat App -
-MVC, Firebase, SDWebImage
+MVC, Firebase, SDWebImage, MessageKit
